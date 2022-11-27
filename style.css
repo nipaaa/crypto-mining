@@ -1,3 +1,17 @@
-.app{
-    background-color: #49FF4E;
+.app {
+  background-color: #49ff4e;
+}
+
+.brand img {
+  background-color: #012002;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin: 15px;
+  border-image: linear-gradient(#007003
+  77%, #529300
+  18%);
+  border-width: 4px;
+  border-style: solid;
 }
