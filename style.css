@@ -4,6 +4,9 @@ body {
 .mb {
   margin-bottom: 200px;
 }
+.paragraph {
+  color: #d1d4dc;
+}
 
 /* navbar style css */
 .nav-item a {
@@ -26,15 +29,15 @@ body {
   -webkit-text-fill-color: transparent;
   letter-spacing: 0.31em;
 }
-.title_color{
-    background: linear-gradient(90deg, #ffffff 0%, #919399 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 60px;
+.title_color {
+  background: linear-gradient(90deg, #ffffff 0%, #919399 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
 }
 .banner_header {
   font-weight: 600;
@@ -75,8 +78,21 @@ span.banner_header {
   bottom: 22px;
   left: 121px;
 }
-.paragraph{
-    color: #D1D4DC;
+/* Ecosystem section css */
+.ecosystem {
+  background: linear-gradient(#001301, #001301) padding-box,
+    linear-gradient(30deg, #001301 7.67%, #18771b 54.04%, #001301 93.82%)
+      border-box;
+  border: 1px solid transparent;
+  border-radius: 25px;
+}
+
+.ecosystem img{
+    background-image: url('./assets/govewrnase-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 40px;
 }
 
 
