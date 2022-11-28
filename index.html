@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
+    <!-- font-awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap cdn link -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,86 +24,92 @@
   </head>
   <body class="text-white">
     <section class="banner_bg">
-        <header class="container mb-5 pt-5">
-            <nav class="navbar navbar-expand-lg">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="#"
-                  ><img src="../../assets/logo.png" alt=""
-                /></a>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
+      <header class="container mb-5 pt-5">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="../../assets/logo.png" alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="text-white"
+                ><i class="fa-sharp fa-solid fa-bars"></i
+              ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link text-white" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" aria-current="page" href="#"
+                    >Document</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" aria-current="page" href="#"
+                    >Community</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" aria-current="page" href="#"
+                    >Product</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <button class="app py-2 px-5 fw-bold rounded-3" type="submit">
+                  APP
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link text-white" aria-current="page" href="#"
-                        >Home</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" aria-current="page" href="#"
-                        >Document</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" aria-current="page" href="#"
-                        >Community</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" aria-current="page" href="#"
-                        >Product</a
-                      >
-                    </li>
-                  </ul>
-                  <form class="d-flex" role="search">
-                    <button class="app py-2 px-5 fw-bold rounded-3" type="submit">APP</button>
-                  </form>
-                </div>
-              </div>
-            </nav>
-          </header>
-      
-          <!-- banner section -->
-          <section class="container mb">
-            <div class="row g-4">
-              <div class="col-12 col-lg-6 my-auto">
-                <p class="title">CRYPTOCURRENCY!</p>
-                <h1 class="banner_header">Focus on your profit while we save </h1><span class="fw-bold banner_header">your time</span>
-                <p class="banner_content py-3">
-                  Viverra fringilla leo duis ut sit interdum. Id elementum quam orci
-                  eget vulputate. Enim non faucibus purus ut netus ut id ullamcorper
-                  quis. Mi non lacus enim volutpat. Odio et dignissim fermentu.
-                </p>
-                <button class="app py-2 px-5 fw-bold" type="submit">
-                  Lunch DeFi apps
-                </button>
-                <button class="bg-transparent text-white border-0">
-                  <img src="../../assets/play-btn.png" alt="" /> Watch Product Tour
-                </button>
-                <p></p>
-                <p></p>
-              </div>
-              <div class="col-12 col-lg-6">
-                <img class="img-fluid" src="../../assets/banner.png" alt="" />
-              </div>
+              </form>
             </div>
-          </section>
+          </div>
+        </nav>
+      </header>
+
+      <!-- banner section -->
+      <section class="container mb">
+        <div class="row g-4">
+          <div class="col-12 col-lg-6 my-auto">
+            <p class="title">CRYPTOCURRENCY!</p>
+            <h1 class="banner_header title_color">
+              Focus on your profit while we save
+            </h1>
+            <span class="fw-bold banner_header">your time</span>
+            <p class="banner_content py-3">
+              Viverra fringilla leo duis ut sit interdum. Id elementum quam orci
+              eget vulputate. Enim non faucibus purus ut netus ut id ullamcorper
+              quis. Mi non lacus enim volutpat. Odio et dignissim fermentu.
+            </p>
+            <button class="app py-2 px-5 fw-bold" type="submit">
+              Lunch DeFi apps
+            </button>
+            <button class="bg-transparent text-white border-0">
+              <img src="../../assets/play-btn.png" alt="" /> Watch Product Tour
+            </button>
+            <p></p>
+            <p></p>
+          </div>
+          <div class="col-12 col-lg-6">
+            <img class="img-fluid" src="../../assets/banner.png" alt="" />
+          </div>
+        </div>
+      </section>
     </section>
-   
 
     <!-- We support this most popular
 network and wallets section -->
     <section class="container mb">
-      <h1 class="text-center my-5">
+      <h1 class="text-center my-5 title_color">
         We support this most popular <br />
         network and wallets.
       </h1>
@@ -115,13 +130,15 @@ network and wallets section -->
       <div class="row g-5">
         <div class="col-12 col-lg-6 chart">
           <img class="briefcase" src="../../assets/brifecase.png" alt="" />
-          <img  src="../../assets/chart.png" alt="" />
+          <img src="../../assets/chart.png" alt="" />
           <img class="market-cup" src="../../assets/market-cup.png" alt="" />
         </div>
         <div class="col-12 col-lg-6 my-auto">
-          <p>YOUR ADDRESS!</p>
-          <h1>Expert analytics for your DeFi invesment portfolio.</h1>
-          <p>
+          <p class="title">YOUR ADDRESS!</p>
+          <h1 class="title_color">
+            Expert analytics for your DeFi invesment portfolio.
+          </h1>
+          <p class="address">
             Velit in vel habitant pulvinar lacus aenean integer felis. Placerat
             faucibus vehicula lacus amet vel nisl. Cursus egestas facilisis nisi
             sit nunc ultricies eu porta. Amet in enim. <br />
@@ -135,56 +152,58 @@ network and wallets section -->
       </div>
     </section>
 
-
     <footer class="footer">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-12 col-lg-4 col-md-6">
-                    <img src="../../assets/logo.png" alt="">
-                    <p>Crypto ownership is recorded on the blockchain, and that entry acts as a digital pink slip. </p>
-                    <div>
-                        <img src="./assets/fb.png"/>
-                        <img src="./assets/tw.png"/>
-                        <img src="./assets/tl.png"/>
-                        <img src="./assets/md.png"/>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-2 col-md-6">
-                    <h6 class="mb-3">Explore</h6>
-                    <p class="p-0 m-0">Home</p>
-                    <p class="p-0 m-0">About Us</p>
-                    <p class="p-0 m-0">Ecosystem</p>
-                    <p class="p-0 m-0">Key Market</p>
-                </div>
-                <div class="col-12 col-lg-2 col-md-6">
-                    <h6 class="mb-3">Resources</h6>
-                    <p class="p-0 m-0">Help center</p>
-                    <p class="p-0 m-0">Partners</p>
-                    <p class="p-0 m-0">Blog</p>
-                    <p class="p-0 m-0">Newsletter</p>
-                </div>
-                <div class="col-12 col-lg-4 col-md-6">
-                    <h6>Join Our Community</h6>
-                    <div class="input-group mb-3 border border-success rounded-end rounded-3">
-                        <div class="form-floating">
-                          <input type="text" class="form-control bg-transparent border-0" id="floatingInputGroup1" placeholder="Username">
-                          <label for="floatingInputGroup1">Username</label>
-                        </div>
-                        <span class="text-black app py-2 px-5 d-flex align-items-center rounded-3">Subscribe</span>
-                      </div>
-                  
-                </div>
-
-                <!-- <div class="full border">Full gradient border</div>
-<div class="sides border">Gradient border on just the  horizontal sides</div>
-<div class="sides-2 border">Gradient border on just the  vertical sides</div>
-<div class="full-withradius border">Gradient border with border radius</div>
-<div class="border linear-repeating">Repeating gradient border </div>
-<div class="border radial-repeating">More repeating gradient border</div> -->
-
-
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-12 col-lg-4 col-md-6">
+            <img src="../../assets/logo.png" alt="" />
+            <p>
+              Crypto ownership is recorded on the blockchain, and that entry
+              acts as a digital pink slip.
+            </p>
+            <div>
+              <img src="./assets/fb.png" />
+              <img src="./assets/tw.png" />
+              <img src="./assets/tl.png" />
+              <img src="./assets/md.png" />
             </div>
+          </div>
+          <div class="col-12 col-lg-2 col-md-6">
+            <h6 class="mb-3">Explore</h6>
+            <p class="p-0 m-0">Home</p>
+            <p class="p-0 m-0">About Us</p>
+            <p class="p-0 m-0">Ecosystem</p>
+            <p class="p-0 m-0">Key Market</p>
+          </div>
+          <div class="col-12 col-lg-2 col-md-6">
+            <h6 class="mb-3">Resources</h6>
+            <p class="p-0 m-0">Help center</p>
+            <p class="p-0 m-0">Partners</p>
+            <p class="p-0 m-0">Blog</p>
+            <p class="p-0 m-0">Newsletter</p>
+          </div>
+          <div class="col-12 col-lg-4 col-md-6">
+            <h6>Join Our Community</h6>
+            <div
+              class="input-group mb-3 border border-success rounded-end rounded-3"
+            >
+              <div class="form-floating">
+                <input
+                  type="text"
+                  class="form-control bg-transparent border-0"
+                  id="floatingInputGroup1"
+                  placeholder="Username"
+                />
+                <label for="floatingInputGroup1">Username</label>
+              </div>
+              <span
+                class="text-black app py-2 px-5 d-flex align-items-center rounded-3"
+                >Subscribe</span
+              >
+            </div>
+          </div>
         </div>
+      </div>
     </footer>
 
     <script
