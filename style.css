@@ -95,6 +95,20 @@ span.banner_header {
     padding: 40px;
 }
 
+.key_market{
+    background-image: linear-gradient(195.59deg, #082300 11.43%, rgba(8, 157, 10, 0.26) 90.69%);
+    padding: 25px;
+    border-radius: 50%;
+}
+
+.key_market_box{
+    background-image: linear-gradient(0.29deg, #070C00 0.26%, #0F1A02 99.75%);
+    border-radius: 8px;;
+    border: 2px solid green;
+    clip-path: polygon(68% 0, 100% 35%, 100% 100%, 0 100%, 0 0);
+}
+
+
 
 /* footer style css */
 .footer {
