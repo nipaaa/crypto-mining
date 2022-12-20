@@ -124,6 +124,7 @@ span.banner_header {
   padding: 28px;
   border-radius: 50%;
   background-size: contain;
+  object-fit: contain;
 }
 
 .key_market_box {
